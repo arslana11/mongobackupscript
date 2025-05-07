@@ -1,0 +1,23 @@
+{
+  "name": "mongobackupscript",
+  "version": "1.0.0",
+  "description": "This script automates MongoDB database backups at scheduled intervals and manages old backups by automatically deleting those older than 30 days. It helps ensure database safety and efficient storage management.",
+  "main": "backup.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/arslana11/mongobackupscript.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/arslana11/mongobackupscript/issues"
+  },
+  "homepage": "https://github.com/arslana11/mongobackupscript#readme",
+  "dependencies": {
+    "express": "^5.1.0"
+  }
+}
